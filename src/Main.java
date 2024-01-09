@@ -3,12 +3,12 @@ public class Main {
 
 	public static void main(String [] args) {
 	
-		Human human = new Human("Mina",24,55);
-		Human human2 = new Human("Minghao",27,58);
+		Human human1 = new Human("Mina",24,55);
+		Human human2 = new Human("Sumin",27,58);
 		
 		
 		human2.eat();
-		human.drink();
+		human1.drink();
 		//System.out.println(human2.name);
 	}
 }
